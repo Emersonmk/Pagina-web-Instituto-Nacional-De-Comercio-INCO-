@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | INCO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/portal-auth.js" defer></script>
+<script src="js/animations.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+<nav class="navbar" aria-label="Navegación principal">
+<a class="brand" href="index.html"><span>INCO</span></a>
+<ul class="nav-links"><li><a href="index.html">Inicio</a></li><li><a href="cursos.html">Cursos</a></li><li><a href="admision.html">Admisión</a></li><li><a href="calendario.html">Calendario</a></li><li><a href="contacto.html" class="active" aria-current="page">Contacto</a></li></ul>
+<a class="btn btn-portal" href="login.html">Portal INCO</a>
+</nav>
+</header>
+<main>
+<header class="page-head"><h1>Contáctanos</h1><p>Escríbenos o visítanos. Te respondemos en horario de atención.</p></header>
+<section class="container grid-2">
+<article class="card">
+<h2>Información institucional</h2>
+<address>
+<p><strong>Dirección:</strong> <a href="https://www.google.com/maps/search/?api=1&amp;query=Instituto%20Nacional%20de%20Comercio%20San%20Salvador" target="_blank" rel="noopener noreferrer">Avenida Las Mercedes #123, Distrito Universitario, San Salvador, El Salvador</a>.</p>
+<p><strong>Teléfonos:</strong> <a href="tel:+50322550000">+503 2255-0000</a> / <a href="tel:+50322550001">+503 2255-0001</a></p>
+<p><strong>Correo:</strong> <a href="mailto:contacto@inco.edu.sv">contacto@inco.edu.sv</a></p>
+<p><strong>Horario:</strong> lunes a viernes, 7:00 a. m. a 4:30 p. m.</p>
+</address>
+</article>
+<form class="card form" action="#" method="post">
+<h2>Envíanos un mensaje</h2>
+<p class="form-intro">Cuéntanos cómo podemos ayudarte. Indica el motivo de tu consulta para que podamos orientarte mejor.</p>
+<label>Nombre<input type="text" name="nombre" required placeholder="Tu nombre"></label>
+<label>Correo<input type="email" name="correo" required placeholder="correo@ejemplo.com"></label>
+<label>Asunto<input type="text" name="asunto" required placeholder="¿Sobre qué quieres consultar?"></label>
+<label>Mensaje<textarea name="mensaje" rows="5" required placeholder="Escribe tu mensaje"></textarea></label>
+<button type="submit" class="btn btn-primary">Enviar mensaje</button>
+</form>
+</section>
+<section class="container contact-help">
+<h2 class="section-title">¿Qué información estás buscando?</h2>
+<div class="contact-options">
+<article class="contact-option">
+<h3>Admisiones</h3>
+<p>Consulta los requisitos y completa el formulario de preinscripción.</p>
+<a class="btn btn-glass" href="admision.html">Ver admisiones</a>
+</article>
+<article class="contact-option">
+<h3>Oferta académica</h3>
+<p>Revisa las carreras técnicas y sus perfiles de ingreso.</p>
+<a class="btn btn-glass" href="cursos.html">Conocer las carreras</a>
+</article>
+<article class="contact-option">
+<h3>Calendario</h3>
+<p>Encuentra las fechas de matrícula, evaluaciones y recesos.</p>
+<a class="btn btn-glass" href="calendario.html">Ver calendario</a>
+</article>
+<article class="contact-option">
+<h3>Portal INCO</h3>
+<p>Accede a la página de ingreso al portal institucional.</p>
+<a class="btn btn-glass" href="login.html">Ir al portal</a>
+</article>
+</div>
+</section>
+<section class="container faq-section">
+<h2 class="section-title">Preguntas frecuentes</h2>
+<div class="faq-list">
+<details class="faq-item">
+<summary>¿Cómo inicio mi proceso de admisión?</summary>
+<div class="faq-answer"><div><p>Visita la sección de Admisión y completa el formulario de preinscripción con tus datos y la carrera de interés.</p><a href="admision.html">Ir a Admisiones</a></div></div>
+</details>
+<details class="faq-item">
+<summary>¿Qué carreras ofrece el INCO?</summary>
+<div class="faq-answer"><div><p>La oferta publicada incluye Contabilidad, Desarrollo de Software y Logística y Comercio Internacional. Consulta la página de Cursos para conocer sus perfiles y duración.</p><a href="cursos.html">Ver oferta académica</a></div></div>
+</details>
+<details class="faq-item">
+<summary>¿Dónde consulto las fechas académicas?</summary>
+<div class="faq-answer"><div><p>El calendario académico reúne las fechas de matrícula, evaluaciones y recesos.</p><a href="calendario.html">Consultar calendario</a></div></div>
+</details>
+<details class="faq-item">
+<summary>¿Qué información debo incluir en mi mensaje?</summary>
+<div class="faq-answer"><div><p>Incluye tu nombre, un correo de contacto, el tema de la consulta y los detalles que nos ayuden a entender qué necesitas.</p></div></div>
+</details>
+</div>
+</section>
+<section class="container">
+<h2 class="section-title">Cómo llegar</h2>
+<div class="map-card">
+<iframe class="map" title="Mapa de ubicación del Instituto Nacional de Comercio en San Salvador" src="https://maps.google.com/maps?q=Instituto%20Nacional%20de%20Comercio%20San%20Salvador&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+<div class="map-actions">
+<p>Encuentra la ubicación del Instituto Nacional de Comercio en Google Maps.</p>
+<a class="btn btn-glass" href="https://www.google.com/maps/search/?api=1&amp;query=Instituto%20Nacional%20de%20Comercio%20San%20Salvador" target="_blank" rel="noopener noreferrer">Abrir Google Maps</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer site-footer-simple">
+<section>
+<h3 class="social-title">Síguenos</h3>
+<div class="social-links" aria-label="Redes sociales">
+<span class="social-link"><span class="social-icon social-whatsapp" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.4-.2-2.9.8.8-2.8-.2-.4A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.5-.7-1.8-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.3-.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 3.8 3.4.5.2.9.4 1.2.4.5.2 1 .1 1.3.1.4-.1 1.5-.6 1.7-1.1.2-.5.2-1 .2-1.1-.1-.1-.2-.2-.4-.3Z"/></svg></span>WhatsApp</span>
+<span class="social-link"><span class="social-icon social-tiktok" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="tiktok-cyan" d="M14 3h3c.2 2.2 1.4 3.7 3.5 4.2v3.2a8 8 0 0 1-3.5-1v6.1a5.5 5.5 0 1 1-5.5-5.5c.4 0 .8 0 1.2.1v3.3a2.3 2.3 0 1 0 1.3 2.1V3Z"/><path class="tiktok-red" d="M12.7 4.5h1.3c.2 2.2 1.4 3.7 3.5 4.2v1.7a8 8 0 0 1-3.5-1v6.1a5.5 5.5 0 0 1-5.5 5.5c-1.2 0-2.3-.4-3.2-1.1a5.5 5.5 0 0 0 8.7-4.4V4.5Z"/><path class="tiktok-white" d="M14 3h3c.2 2.2 1.4 3.7 3.5 4.2v3.2a8 8 0 0 1-3.5-1v6.1a5.5 5.5 0 1 1-5.5-5.5c.4 0 .8 0 1.2.1v3.3a2.3 2.3 0 1 0 1.3 2.1V3Z"/></svg></span>TikTok</span>
+<span class="social-link"><span class="social-icon social-facebook" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13.4 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6a22 22 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3v2.1H7.2V13H10v8h3.4Z"/></svg></span>Facebook</span>
+<span class="social-link"><span class="social-icon social-youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="youtube-frame" d="M22 7.2a2.5 2.5 0 0 0-1.8-1.8C18.6 5 12 5 12 5s-6.6 0-8.2.4A2.5 2.5 0 0 0 2 7.2 26 26 0 0 0 1.6 12 26 26 0 0 0 2 16.8a2.5 2.5 0 0 0 1.8 1.8C5.4 19 12 19 12 19s6.6 0 8.2-.4a2.5 2.5 0 0 0 1.8-1.8 26 26 0 0 0 .4-4.8 26 26 0 0 0-.4-4.8Z"/><path class="youtube-play" d="m10 15.5 5.2-3.5L10 8.5v7Z"/></svg></span>YouTube</span>
+</div>
+</section>
+<nav aria-label="Enlaces rápidos">
+<h3>Enlaces</h3>
+<ul><li><a href="index.html">Inicio</a></li><li><a href="cursos.html">Cursos</a></li><li><a href="admision.html">Admisión</a></li><li><a href="calendario.html">Calendario</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="login.html">Portal INCO</a></li></ul>
+</nav>
+<p class="copy">© 2027 Proyecto académico.</p>
+</footer>
+</body>
+</html>

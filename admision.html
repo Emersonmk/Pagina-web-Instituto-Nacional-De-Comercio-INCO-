@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admisión | INCO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/portal-auth.js" defer></script>
+<script src="js/animations.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+<nav class="navbar" aria-label="Navegación principal">
+<a class="brand" href="index.html"><span>INCO</span></a>
+<ul class="nav-links"><li><a href="index.html">Inicio</a></li><li><a href="cursos.html">Cursos</a></li><li><a href="admision.html" class="active" aria-current="page">Admisión</a></li><li><a href="calendario.html">Calendario</a></li><li><a href="contacto.html">Contacto</a></li></ul>
+<a class="btn btn-portal" href="login.html">Portal INCO</a>
+</nav>
+</header>
+<main>
+<header class="page-head"><h1>Proceso de admisión y preinscripción 2027</h1><p>Completa el formulario para iniciar tu proceso de admisión.</p></header>
+<section class="container narrow">
+<form class="card form" action="#" method="post">
+<label>Nombre completo<input type="text" name="nombre" required placeholder="Ej. Juan Pérez"></label>
+<label>Correo electrónico<input type="email" name="correo" required placeholder="correo@ejemplo.com"></label>
+<label>Teléfono de contacto<input type="tel" name="telefono" required placeholder="2200-0000" pattern="[0-9]{4}-?[0-9]{4}" title="Ocho dígitos, por ejemplo 2200-0000"></label>
+<label>Fecha de nacimiento<input type="date" name="nacimiento" required></label>
+<label>Carrera de interés
+<select name="carrera" required>
+<option value="">Seleccione una opción</option>
+<option>Bachillerato Técnico Vocacional en Contabilidad</option>
+<option>Bachillerato Técnico Vocacional en Desarrollo de Software</option>
+<option>Técnico Superior en Logística y Comercio Internacional</option>
+</select></label>
+<label>Documentación (partida de nacimiento o notas, en PDF o imagen)<input type="file" name="documento" required accept=".pdf,.png,.jpg"></label>
+<label>Comentarios adicionales<textarea name="comentarios" rows="4" placeholder="Escribe una consulta o nota importante"></textarea></label>
+<button type="submit" class="btn btn-primary">Enviar preinscripción</button>
+</form>
+</section>
+</main>
+<footer class="site-footer site-footer-simple">
+<section>
+<h3 class="social-title">Síguenos</h3>
+<div class="social-links" aria-label="Redes sociales">
+<span class="social-link"><span class="social-icon social-whatsapp" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.4-.2-2.9.8.8-2.8-.2-.4A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.5-.7-1.8-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.3-.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 3.8 3.4.5.2.9.4 1.2.4.5.2 1 .1 1.3.1.4-.1 1.5-.6 1.7-1.1.2-.5.2-1 .2-1.1-.1-.1-.2-.2-.4-.3Z"/></svg></span>WhatsApp</span>
+<span class="social-link"><span class="social-icon social-tiktok" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="tiktok-cyan" d="M14 3h3c.2 2.2 1.4 3.7 3.5 4.2v3.2a8 8 0 0 1-3.5-1v6.1a5.5 5.5 0 1 1-5.5-5.5c.4 0 .8 0 1.2.1v3.3a2.3 2.3 0 1 0 1.3 2.1V3Z"/><path class="tiktok-red" d="M12.7 4.5h1.3c.2 2.2 1.4 3.7 3.5 4.2v1.7a8 8 0 0 1-3.5-1v6.1a5.5 5.5 0 0 1-5.5 5.5c-1.2 0-2.3-.4-3.2-1.1a5.5 5.5 0 0 0 8.7-4.4V4.5Z"/><path class="tiktok-white" d="M14 3h3c.2 2.2 1.4 3.7 3.5 4.2v3.2a8 8 0 0 1-3.5-1v6.1a5.5 5.5 0 1 1-5.5-5.5c.4 0 .8 0 1.2.1v3.3a2.3 2.3 0 1 0 1.3 2.1V3Z"/></svg></span>TikTok</span>
+<span class="social-link"><span class="social-icon social-facebook" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13.4 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6a22 22 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3v2.1H7.2V13H10v8h3.4Z"/></svg></span>Facebook</span>
+<span class="social-link"><span class="social-icon social-youtube" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="youtube-frame" d="M22 7.2a2.5 2.5 0 0 0-1.8-1.8C18.6 5 12 5 12 5s-6.6 0-8.2.4A2.5 2.5 0 0 0 2 7.2 26 26 0 0 0 1.6 12 26 26 0 0 0 2 16.8a2.5 2.5 0 0 0 1.8 1.8C5.4 19 12 19 12 19s6.6 0 8.2-.4a2.5 2.5 0 0 0 1.8-1.8 26 26 0 0 0 .4-4.8 26 26 0 0 0-.4-4.8Z"/><path class="youtube-play" d="m10 15.5 5.2-3.5L10 8.5v7Z"/></svg></span>YouTube</span>
+</div>
+</section>
+<nav aria-label="Enlaces rápidos">
+<h3>Enlaces</h3>
+<ul><li><a href="index.html">Inicio</a></li><li><a href="cursos.html">Cursos</a></li><li><a href="admision.html">Admisión</a></li><li><a href="calendario.html">Calendario</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="login.html">Portal INCO</a></li></ul>
+</nav>
+<p class="copy">© 2027 Proyecto académico.</p>
+</footer>
+</body>
+</html>
